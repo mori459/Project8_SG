@@ -1,4 +1,4 @@
-#include "Game.hpp"
+#include "Card.hpp"
 
 namespace CardGame {
     Suit Card::GetSuit() const
