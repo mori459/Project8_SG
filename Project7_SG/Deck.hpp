@@ -5,9 +5,16 @@
 
 #include "Card.hpp"
 
-namespace FullDeck {
+namespace CardGame {
 
 	class Deck {
+	public:
+		void CreatDeck();
+		Card GetCard(int index);
+		void PlaceCard(Card newCard); 
+
+	private:
+		std::vector<Card> fullDeck_;
 
 	};
 }

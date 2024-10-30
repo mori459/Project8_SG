@@ -10,8 +10,9 @@ namespace CardGame {
 	class Hand {
 	public:
 		//ножно добавить методы для карточной руки
+
 	private:
-		std::vector<Card> cards_;
+		std::vector<Card> handDeck_;
 	};
 }
 
